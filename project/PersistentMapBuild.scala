@@ -49,7 +49,7 @@ object PersistentMapBuild extends Build {
         </developer>
       </developers>))
 
-  val scalaVersionString = "2.11.6"
+  val scalaVersionString = "2.11.11"
 
   def extraLibraryDependencies = Seq(
     libraryDependencies ++= Seq(
